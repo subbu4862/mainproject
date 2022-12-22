@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+.loginform{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+max-width: 380px;
+width: 100%;
+height: auto;
+border-radius: 5px;
+padding: 40px 30px 40px 0;
+box-shadow: -4px -4px 11px #c8c2c2a2,
+            4px 4px 9px rgba(147, 149, 151, 0.871);
+}
+
+.loginform .title{
+font-size: 32px;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+color: #c9c3cd;
+margin-bottom: 35px;
+}
+
+span{
+   color: #f9004d;
+ }
+ind{
+   color: gold;
+}
+
+.input-form{
+margin-bottom: 35px;
+position: relative;
+}
+
+.input-form .input{
+width: 100%;
+padding: 16px;
+padding-left: 80px;
+font-size: 18px;
+text-align: center;
+border: transparent;
+color: #fff;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+background: rgba(105, 105, 105, 0.55);
+
+outline: none;
+}
+
+.input-form:after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 10px;
+height: 100%;
+background: #bfb7b7;
+}
+
+.input-form:before{
+content: "";
+position: absolute;
+top: 6px;
+left: 70px;
+width: 2px;
+height: 80%;
+background: #d4cfd9;
+}
+
+.btn{
+width: 200px;
+background: rgba(163, 159, 159, 0.55);
+margin: 0 auto;
+text-align: center;
+border-radius: 5px;
+padding: 12px;
+}
+
+.btn a{
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 24px;
+}
+
+.input-form .fas{
+position: absolute;
+top: 18px;
+left: 35px;
+font-size: 20px;
+color: #fff;
+}
+
+
+::-webkit-input-placeholder {
+/* Chrome/Opera/Safari */
+color: #fff;
+}
+::-moz-placeholder {
+/* Firefox 19+ */
+color: #fff;
+}
+:-ms-input-placeholder {
+/* IE 10+ */
+color: #fff;
+}
+  </style>
+</head>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="train.jpg" style="width:100%" style="height: 100vh">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="train1.jpg" style="width:100%" style="height:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="train2.jpg" style="width:100%" style="height:100%">
+ 
+</div>
+<div class="mySlides fade">
+  
+  <img src="train3.jpg" style="width:100%" style="height:100%">
+ 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+  <div class="wrapper">
+    <div class="loginform">
+        <div class="title">
+            <span> IRCTC Login form</span>
+        </div>
+        <div class="input-form username">
+            <input type="text" class="input" placeholder="Username">
+            <i class="fas fa-user"></i>
+        </div>
+        
+        <div class="input-form password">
+            <input type="password" class="input" placeholder="Password">
+            <i class="fas fa-key"></i>
+        </div>
+        <div class="btn">
+          <a href="#">login here</a>
+        </div>
+      <br></br>
+     <p align="center">Already have an account? <a href="login form.html"><ind>Login here</ind></a>.</p>
+             <p align="center"> or  </p>
+      <p align="center">New to registration<a href="responsive registration.html"><ind>Register Here </ind></a>.</p>
+
+      
+    </div>
+  </div>
+</body>
+</html>
