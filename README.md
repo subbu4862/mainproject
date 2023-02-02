@@ -17,6 +17,16 @@ when you click on the about developer button you can see the porjcet developer d
 i thing it these help to all peoples at urgent times thanks youuu...
 happy journey...................be safe adn reach safely to home.............README.md
 ![screenshort](https://user-images.githubusercontent.com/115142889/215776324-1210d0f7-370c-4496-bf85-fa8aa61a8a4f.jpg)
+from the above image we can conclude that the train booking form project website is created by usinng html and some azure services .
 ![screenshort3](https://user-images.githubusercontent.com/115142889/215804315-bb5f1eed-9374-456b-97f3-25e640151f27.jpg)
+here the above image show the database of azure is used that is azure sql database by using that azure sql database we can create these form list 
 ![screenshort1](https://user-images.githubusercontent.com/115142889/215776353-e529fddd-62e4-4e68-8ca6-e0e792b2f050.jpg)
+we can see the developer profile by uclicking the about developer button in starting project page which is shown in the demo video or the images .and you can see the qualifications and present status of the that developer .
 ![screenshort2](https://user-images.githubusercontent.com/115142889/215776375-5b49fa09-1287-4c6e-85bf-7a0373510bde.jpg)
+these is the login form of the irctc .if your not login means we can click to register button and then you get the registeration button .t
+
+thanks for giving these chance to do my project ..
+thanks to microsoft future ready talent .
+thanks to microsoft team and his members to helping these microsoft team to complete my project with good effect....
+thanks to allll....
+copy by S.Balasubramanyam and his team members
