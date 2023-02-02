@@ -10,8 +10,8 @@ like 1.AZURE SQL DATABASE
 these two azure services are used in my project and it will help to improve and good effect on my project
 the above link are used to see the project....
 demo url : https://balusadda123.github.io/mainproject/
-demo video: https://drive.google.com/file/d/1Qcix10wxLatmV0OiUGG3a1MujIONc8Go/view?usp=drivesdk
-another demo video link we wil provide in these readme
+demo video: https://drive.google.com/file/d/1DOhDbupI33N52Mw06vEfiRHOq1fSmC02/view?usp=drivesdk
+another demo video link we wil provide in theshttps://drive.google.com/file/d/1DOhDbupI33N52Mw06vEfiRHOq1fSmC02/view?usp=drivesdke readme
 
 when you click on the about developer button you can see the porjcet developer details ...
 i thing it these help to all peoples at urgent times thanks youuu...
