@@ -15,7 +15,11 @@ like 1.AZURE SQL DATABASE
 for the azure static web app link in azure ...
 see the deployment status 
 
- 2.AZURE SQL DATABASE:
+![Screenshot_20230203_011639](https://user-images.githubusercontent.com/115142889/216435094-25ef71fa-9ec5-4632-94e4-95fa26b70681.jpg)
+
+
+
+2.AZURE SQL DATABASE:
  these sql database is used to show the dtabase table that the indian special railways that daily and special trains at particular date .i showed the database by using the azure sql database in my project which is show the below screenshorts and images and demo url and video url..
  
 these two azure services are used to my project and it will help to improve and good effect on my project
