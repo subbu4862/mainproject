@@ -7,7 +7,15 @@ because it is like booking or taking ticket general or any class at a time in ra
 in these project i used two azure services 
 like 1.AZURE SQL DATABASE
    2. AZURE WEB STATIC 
-these two azure services are used in my project and it will help to improve and good effect on my project
+   
+  
+ 1.AZURE STATIC WEB APP:
+ these azure static web app is used to create a static web page by using azure static web app and html and css and javascript .these azure web static is used to create a static web page.
+ 
+ 2.AZURE SQL DATABASE:
+ these sql database is used to show the dtabase table that the indian special railways that daily and special trains at particular date .i showed the database by using the azure sql database in my project which is show the below screenshorts and images and demo url and video url..
+ 
+these two azure services are used to my project and it will help to improve and good effect on my project
 the above link are used to see the project....
 demo url : https://balusadda123.github.io/mainproject/
 demo video: https://drive.google.com/file/d/1DOhDbupI33N52Mw06vEfiRHOq1fSmC02/view?usp=drivesdk
