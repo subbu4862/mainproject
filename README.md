@@ -11,7 +11,10 @@ like 1.AZURE SQL DATABASE
   
  1.AZURE STATIC WEB APP:
  these azure static web app is used to create a static web page by using azure static web app and html and css and javascript .these azure web static is used to create a static web page.
- 
+ demo url is : https://white-flower-0eaaed010.2.azurestaticapps.net
+for the azure static web app link in azure ...
+see the deployment status 
+
  2.AZURE SQL DATABASE:
  these sql database is used to show the dtabase table that the indian special railways that daily and special trains at particular date .i showed the database by using the azure sql database in my project which is show the below screenshorts and images and demo url and video url..
  
