@@ -11,7 +11,7 @@ like 1.AZURE SQL DATABASE
   
  1.AZURE STATIC WEB APP:
  these azure static web app is used to create a static web page by using azure static web app and html and css and javascript .these azure web static is used to create a static web page.
- demo url is : https://white-flower-0eaaed010.2.azurestaticapps.net
+ demo url is : https://white-flower-0eaaed010.2.azurestaticapps.net. this link is only for 3 hours because i use sandbox in azure .it will active on 3hours .see the below screenshort .
 for the azure static web app link in azure ...
 see the deployment status 
 
